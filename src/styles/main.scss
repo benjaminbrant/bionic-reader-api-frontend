@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    background-color: #9f9f9f;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bionicGenerator {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.bionicInput {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    
+}
+
+#bionicInput {
+    width: 90%;
+    height: 90%;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.bionicButtons {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button {
+        border-radius: 15px;
+    }
+
+    #bionicGenerate {
+        padding: 10px 10px;
+        margin-right: 20px;
+    }
+
+    #bionicReset {
+        padding: 10px 10px;
+    }
+}
+
+.bionicOutput {
+    width: 90%;
+    height: 45%;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+
